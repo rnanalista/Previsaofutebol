@@ -8,7 +8,7 @@ library("lubridate")
 library(matrixStats)
 library(psych)
 # Defenir diretório
-setwd("E:/futebol/python")
+setwd("E:/futebol/")
 
 # importando CSVs do campeonato brasileiro de 2019 a até a rodada 6 de 2022
 df2019 <- read.csv("2019.csv", encoding = "UTF-8", sep = ";")
